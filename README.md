@@ -16,11 +16,11 @@ Key Features
 
 Technologies Used:
 
-- Python 3.10+
-- Terraform Cloud / Terraform Enterprise API
-- Requests (for API interactions)
-- Argparse (for command-line configuration)
-- CSV logging (for review and auditing)
+ - Python 3.10+
+ - Terraform Cloud / Terraform Enterprise API
+ - Requests (for API interactions)
+ - Argparse (for command-line configuration)
+ - CSV logging (for review and auditing)
 
 Example Use Case:
 
