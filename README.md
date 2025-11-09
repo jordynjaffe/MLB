@@ -14,19 +14,15 @@ Key Features
 - Supports optional auto-apply for non-destructive (“add-only”) plans
 - Includes built-in polling, rate limiting, and error handling
 
-Technologies Used
+Technologies Used:
 
-Python 3.10+
+- Python 3.10+
+- Terraform Cloud / Terraform Enterprise API
+- Requests (for API interactions)
+- Argparse (for command-line configuration)
+- CSV logging (for review and auditing)
 
-Terraform Cloud / Terraform Enterprise API
-
-Requests (for API interactions)
-
-Argparse (for command-line configuration)
-
-CSV logging (for review and auditing)
-
-Example Use Case
+Example Use Case:
 
 The script can be configured to:
 
@@ -40,7 +36,8 @@ Automatically apply it if it only contains additions, or
 
 Log it for manual review if it includes modifications or deletions.
 
-Environment Setup
+
+Environment Setup:
 
 Set an environment variable for your Terraform API token:
 
@@ -60,7 +57,7 @@ Plan result: +2 ~0 -0
 Only additions found. Auto-applying...
 Successfully auto-applied.
 
-Ethical Disclosure
+Disclosure:
 
 This code is derived from personal work written during my time at Major League Baseball (MLB) but has been fully scrubbed of all proprietary, identifying, or sensitive details.
 All domain names, tokens, organization identifiers, and process-specific labels have been anonymized to ensure compliance with professional and ethical standards.
